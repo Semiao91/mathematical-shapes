@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.square{
+    border-style: solid;
+    color: black;
+    height: 50px;
+    width: 50px;
+}
+
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+
+.circle{
+  height: 50px;
+  width: 50px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.diagonal{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    gap: 10px;
+}
+
+.area{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    gap: 10px;
+}
+
+.circumference{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    gap: 10px;
+}
+
+.two-integers{
+    background-color: rgb(110, 110, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    gap: 10px;
+}
+
+.even-odd{
+    background-color: rgb(172, 106, 76);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 700px;
+    gap: 10px;
+}
